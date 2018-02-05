@@ -1,0 +1,17 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "PORTAFOLIO PRESENTACION",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  },
+  "devDependencies": {
+    "jquery": "^3.3.1"
+  }
+}
