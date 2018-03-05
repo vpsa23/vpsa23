@@ -10,29 +10,154 @@
   <!--LINKS-->
   <link rel="stylesheet" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Great+Vibes|Playball|Satisfy" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Parisienne" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 </head>
 <body>
-
-<!--PAGINA PRINCIPAL-->
-  <div class="x-mark">
-    <div class="container">
-      <div class="left"></div>
-      <div class="right"></div>
-    </div>
-  </div>
-  <div class="intro-container">
-    <div class="button shift-camera-button">
-      <div class="border">
-        <div class="left-plane"></div>
-        <div class="right-plane"></div>
+  <div id="containerPrincipal">
+  <header>
+    <nav>
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="nav">
+        <ul>
+          <li>About Me</li>
+          <li>Skills</li>
+          <li>Projects</li>
+          <li>Contact Me</li>
+        </ul>
+        
       </div>
-      <div class="text">WELCOME</div>
+    </nav>
+  </header>
+
+  <section>
+    <div class="row">
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6" id="inicio">
+        <ul>
+          <li><img src="assets/img/yo.jpg" alt=""></li>
+          <li><h3>Valeria Santeliz</h3></li>
+          <li><p>Front-end Developer</p></li>
+        </ul>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6" id="aboutMe">
+        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam debitis totam, dolore, placeat sed explicabo porro dolor voluptatibus earum minus architecto sapiente inventore doloribus in assumenda perferendis mollitia sunt repellat? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi accusantium tenetur eum nisi, quis provident, voluptatum mollitia sint iure molestiae quia odio impedit quos aspernatur, suscipit blanditiis quasi sunt porro.</h1>
+      </div>
     </div>
+  </section>
+
+  <section>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="skills">
+        <h1>Technical Skill Set</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" >
+        <ul id="list">
+          <li><i class="devicon-bootstrap-plain" id="bootstrap"></i><h3>Bootstrap</h3><p>Open source framework for designing websites.</p></li>
+          <li><i class="devicon-css3-plain" id="css"></i><h3>Css 3</h3><p>Style sheet language used in web.</p></li>
+          <li><i class="devicon-html5-plain" id="html"></i><h3>Html5</h3><p>Markup language for the structure of web.</p></li>
+          <li><i class="devicon-javascript-plain" id="javascript"></i><h3>Javascript</h3><p>Interpreted programming language.</p></li>
+          <li><i class="devicon-jquery-plain-wordmark" id="jquery"></i><h3>Jquery</h3><p>JavaScript library client-side scripting of HTML.</p></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" >
+        <ul id="list">
+          <li><i class="devicon-mocha-plain" id="mocha"></i><h3>Mocha</h3><p>Open source framework for designing websites.</p></li>
+          <li><i class="devicon-react-plain" id="react"></i><h3>React</h3><p>Style sheet language used in web.</p></li>
+          <li><i class="devicon-nodejs-plain" id="nodejs"></i><h3>NodeJS</h3><p>Markup language for the structure of web.</p></li>
+          <li><i class="devicon-sass-plain" id="sass"></i><h3>Sass</h3><p>Interpreted programming language.</p></li>
+          <li><i class="devicon-angularjs-plain-wordmark" id="angular"></i><h3>AngularJS</h3><p>JavaScript library client-side scripting of HTML.</p></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="projects">
+        <h1>Projects</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="card-group" id="card">
+          <div class="card" id="card1">
+            <img class="card-img-top" src="assets/img/Spa.PNG" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Single Page Application</h5>
+            <button type="text" class="btn" id="code">Code</button><button type="text" class="btn" id="demo">Demo</button>
+          </div>
+          </div>
+          <div class="card" id="card2">
+            <img class="card-img-top" src="assets/img/Lyft.PNG" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Lyft</h5>
+            <button type="text" class="btn" id="code">Code</button><button type="text" class="btn" id="demo">Demo</button>
+          </div>
+          </div>
+          <div class="card" id="card3">
+            <img class="card-img-top" src="assets/img/red-social.PNG" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Red-Social</h5>
+            <button type="text" class="btn" id="code">Code</button><button type="text" class="btn" id="demo">Demo</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="row1">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="card-group" id="card">
+          <div class="card" id="card1">
+            <img class="card-img-top" src="assets/img/Spa.PNG" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Single Page Application</h5>
+            <button type="text" class="btn" id="code">Code</button><button type="text" class="btn" id="demo">Demo</button>
+          </div>
+          </div>
+          <div class="card" id="card2">
+            <img class="card-img-top" src="assets/img/Lyft.PNG" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Lyft</h5>
+            <button type="text" class="btn" id="code">Code</button><button type="text" class="btn" id="demo">Demo</button>
+          </div>
+          </div>
+          <div class="card" id="card3">
+            <img class="card-img-top" src="assets/img/red-social.PNG" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Red-Social</h5>
+            <button type="text" class="btn" id="code">Code</button><button type="text" class="btn" id="demo">Demo</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="contact">
+        <h1>Contact Me</h1>
+      </div>
+
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="contact">
+        <h3>Feel free to contact me</h3>
+      </div>
+    </div>
+  </section>
+  
+
+  
   </div>
-  <!--FIN DE BACKGROUND-->
 
 
 
@@ -43,11 +168,7 @@
 
   <!--SCRIPTS-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r78/three.min.js"></script>
   <script src="assets/js/app.js"></script>
-  <script src="https://use.typekit.net/jrj6out.js"></script>
-  <script>try{Typekit.load({ async: false });}catch(e){}</script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*NAV*/
+#container1 {
+  width: 100%;
+  height: 20vh;
+
+}
+
+#search {
+  width: 20%;
+  height: 5%;
+  margin-top: 10%;
+  margin-left: -12%;
+  margin-right: 25%;
+  
+}
+
+#btn {
+  height: 5.4vh;
+  margin-top: 61%;
+  margin-left: -155%;
+}
+
+#logo {
+  width: 50%;
+  height: 99%;
+}
+
+#btn1 {
+  margin-left: 45%
+}
+
+.mybtnCart{
+  background-color: transparent;
+  border-style: none;
+  padding-top: 1em;
+  margin-top: 30px; 
+}
+
+.mybtnCart:hover{
+  cursor: pointer; 
+}
+
+.mybtnCart:focus{
+  outline: none; 
+}
+
+.fa-cart-arrow-down{
+  margin-left: 15px; 
+  font-size: 4em;
+  font-size: 1.5em;
+}
+
+#listNav {
+  list-style: none;
+}
+
+#listNav hr {
+  border-bottom: 1px solid #000;
+  width: 123.5%;
+  margin-left: -12%;
+  margin-top: 1%;
+}
+
+#listNav li{
+  display: inline-block;
+  line-height: 50px;
+  margin-left: 10%;
+  text-align: center;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 20px;
+}
+
+#listNav li a{
+  color: #000;
+}
+
+
+/*PRIMERA SECCION INICIO*/
+#carouselExampleControls {
+  width: 150%;
+  margin-left: -15%;
+  border-radius: 15px;
+}
+
+#img2 {
+  margin-left: 15%;
+  border-radius: 6px;
+}
+
+#text {
+  border: 1px solid #2ECC71;
+  background: #2ECC71;
+  font-size: 10px;
+  margin-left: 73%;
+  margin-top: -5%;
+  margin-bottom: %;
+  border-radius: 10px;
+}
+
+#text h2{
+  font-size: 18px;
+  font-family: 'Amaranth', sans-serif;
+  text-align: center;
+  margin-top: 6%;
+}
+
+/*SEGUNDA SECCION INICIO*/
+#check {
+  color: orange;
+  font-size: 25px;
+}
+
+#paragraph h2 {
+  font-family: 'Parisienne', cursive;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10%;
+  font-size: 30px;
+}
+
+#paragraph p {
+  width: 60%;
+  text-align: center;
+  margin-left: 20%;
+}
+
+/*TERCERA SECCION INICIO*/
+#title h1{
+  text-align: center;
+  margin-top: 5%;
+  font-family: 'Arsenal', sans-serif;
+  font-weight: 700;
+  color: #3498DB  ;
+}
+
+#images img{
+  width: 15%;
+  height: 80%;
+  margin-top: 3%;
+  margin-left: 1.3%;
+}
+
+/*CUARTA SECCION INICIO*/
+#cards {
+  margin-left: %;
+  margin-top: 3%;
+}
+
+#cards1 {
+  border: 1px solid #2ECC71;
+}
+
+.card-body {
+  border-top: 1px solid #2ECC71;
+  height: 5vh;
+}
+
+#cards p{
+  text-align: center;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 20px;
+  margin-top: -12%;
+}
+
+#cards p a{
+  color: #000;
+}
+
+/*QUINTA SECCION INICIO*/
+#fiveSection {
+  background-color: #2ECC71;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+  margin-top: 5%;
+}
+
+#box {
+  width: 50%;
+  height: 80%;
+  margin-top: 10%;
+  margin-left: -30%;
+}
+
+#title2 h1{
+  text-align: center;
+  margin-top: 2%;
+  margin-left: -20%;
+  font-family: 'Arsenal', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #000;
+}
+
+#title3 {
+  margin-top: -8%;
+}
+
+#title3 h3 {
+  text-align: center;
+  font-family: 'Arsenal', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  margin-top: 8%;
+}
+
+#title3 p {
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
+}
+
+#key {
+  width: 30%;
+  height: 70%;
+  margin-left: 700%;
+}
+
+/*SEXTA SECCION INICIO*/
+#sixSection {
+  background-color: #82E0AA;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+  margin-top: 5%;
+}
+
+#local {
+  width: 100%;
+  height: 120%;
+}
+
+#text3 h1 {
+  text-align: center;
+  margin-top: 10%;
+  font-family: 'Arsenal', sans-serif;
+  font-weight: 600;
+}
+
+#text3 p {
+  text-align: center;
+  font-size: 20px;
+}
+
+/*SEPTIMA SECCION INICIO*/
+#line1 {
+  border-bottom: 1px solid #000;
+  width: 112%;
+  margin-left: -12%;
+  margin-top: -0.5%;
+}
+
+#footer1{
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+#footer1 li {
+  list-style: none;
+  text-align: center;
+  margin-top: 3%;
+  font-family: 'Arsenal', sans-serif;
+}
+
+#footer1 h6 {
+  text-align: center;
+  margin-top: 10%;
+  font-family: 'Arsenal', sans-serif;
+  font-weight: 600;
+}
+
+#markeInc {
+  font-family: 'Arsenal', sans-serif;
+  font-size: 15px;
+  color: gray;
+  margin-left: 80%;
+}
+
+/*OCTAVA SECCION INICIO (FOOTER)*/
+#footer2 {
+  margin-left: -18%;
+}
+
+#logo2 {
+  width: 15%;
+  height: 15%;
+}
+
+#footer2 h6 {
+  text-align: center;
+  font-family: 'Arsenal', sans-serif;
+  font-weight: 600;
+}
+
+#footer3 {
+margin-left: 15%;
+}
+
+#footer3 li {
+  margin-left: 3.5%;
+  list-style: none;
+  text-align: center;
+  font-family: 'Arsenal', sans-serif;
+  display: inline-block;
+  margin-top: 4.5%;
+}
+
+/*TARJETAS DE TELEFONOS*/
+
+.card{
+  margin-bottom: 10em;
+  margin-right: 4em;
+  margin-left: 1em;
+}
+
+.card-title{
+  text-align: center;
+  font-family: 'Arsenal', sans-serif;
+  font-weight: 700;
+}
+
+.card-text {
+  text-align: center;
+  font-family: 'Arsenal', sans-serif;
+  font-weight: 500;
+}
+
+.card-body{
+  height: auto; 
+}
+
+#btnView {
+  background-color: #2ECC71;
+  border: none;
+  text-align: center;
+  margin-left: 30%;
+  font-family: 'Arsenal', sans-serif;
+  font-weight: 700;
+}
+
+#paypal {
+  background-color: #2ECC71;
+  border: none;
+  text-align: center;
+  margin-left: 30%;
+  font-family: 'Arsenal', sans-serif;
+  font-weight: 700;
+}

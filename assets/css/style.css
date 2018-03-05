@@ -1,159 +1,175 @@
-/* BACKGROUND*/
-$screen-sm-min: 860px;
-$screen-md-min: 992px;
-$screen-lg-min: 1200px;
-
-@mixin breakpoint($point) {
-  @if $point == $screen-sm-min {
-    @media screen and (min-width: $screen-sm-min) { @content; }
-  }
-  @elseif $point == $screen-md-min {
-    @media screen and (min-width: $screen-md-min) { @content; }
-  }
-  @elseif $point == $screen-lg-min {
-    @media screen and (min-width: $screen-lg-min) { @content; }
-  }
-}
-
-body {
-  position: relative;
+* {
   margin: 0;
-  overflow: hidden;
+  padding: 0;
 }
 
-.intro-container {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  color: white;
-  text-align: center;
-  margin: 0 auto;
-  right: 0;
-  left: 0;
+/*BACKGROUND*/
+#containerPrincipal {
+  background-image: url(../img/fondo7.png);
+  width: 100%;
+  height: 500vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 30%;
 }
 
-h1 {
-  font-family: 'brandon-grotesque', sans-serif;
-  font-weight: bold;
-  margin-top: 0px;
-  margin-bottom: 0;
-  font-size: 20px;
-
-  @include breakpoint($screen-sm-min){
-    font-size: 40px;
-    line-height: 52px;
-  }
+/*MENÚ*/
+#nav {
+  background: rgba(0,0,0,0.31);
+  background: -moz-linear-gradient(-45deg, rgba(0,0,0,0.31) 0%, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 35%, rgba(0,0,0,0.3) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(0,0,0,0.31)), color-stop(0%, rgba(0,0,0,0.3)), color-stop(35%, rgba(0,0,0,0.3)), color-stop(100%, rgba(0,0,0,0.3)));
+  background: -webkit-linear-gradient(-45deg, rgba(0,0,0,0.31) 0%, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 35%, rgba(0,0,0,0.3) 100%);
+  background: -o-linear-gradient(-45deg, rgba(0,0,0,0.31) 0%, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 35%, rgba(0,0,0,0.3) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(0,0,0,0.31) 0%, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 35%, rgba(0,0,0,0.3) 100%);
+  background: linear-gradient(135deg, rgba(0,0,0,0.31) 0%, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 35%, rgba(0,0,0,0.3) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );
+  height: 15vh;
+  width: 100%;
+  display: fixed;
 }
 
-.fancy-text {
-  font-family: "adobe-garamond-pro",sans-serif;
-  font-style: italic;
-  letter-spacing: 1px;
-  margin-bottom: 17px;
-}
-
-.button {
-  position: relative;
-  cursor: pointer;
+#nav ul li{
+  list-style: none;
   display: inline-block;
-  font-family: 'brandon-grotesque', sans-serif;
+  margin-left: 5%;
+  margin-top: 2.5%;
+  font-family: 'Parisienne', cursive;
+  font-size: 25px;
+  font-weight: 500;
+  color: #FFF;
+}
+
+/*INICIO*/
+#inicio ul li img{
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+}
+
+#inicio ul li {
+  list-style: none;
+  text-align: center;
+}
+
+#inicio ul {
+  margin-top: 20%;
+}
+
+#inicio ul li h3 {
+  color: #000;
+  font-family: 'Parisienne', cursive;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+#inicio ul li p {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: -1.5%;
+}
+
+/*ABOUT ME*/
+#aboutMe h1{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 500;
+  margin-top: 20%;
+  text-align: center;
+  font-size: 25px;
+  margin-left: -15%;
+  margin-right: 30%;
+}
+
+/*SKILLS*/
+#skills {
+  margin-top: 10%;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 500;
+  text-align: center;
   text-transform: uppercase;
-  min-width: 200px;
-  margin-top: 30px;
-
-  &:hover {
-    .border {
-      box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
-      .left-plane, .right-plane {
-        transform: translateX(0%);
-      }
-    }
-
-    .text {
-      color: #121212;
-    }
-  }
-
-  .border {
-    border: 1px solid white;
-    transform: skewX(-20deg);
-    height: 32px;
-    border-radius: 3px;
-    overflow: hidden;
-    position: relative;
-    transition: .10s ease-out;
-
-    .left-plane, .right-plane {
-      position: absolute;
-      background: white;
-      height: 32px;
-      width: 100px;
-      transition: .15s ease-out;
-    }
-
-    .left-plane {
-      left: 0;
-      transform: translateX(-100%);
-    }
-
-    .right-plane {
-      right: 0;
-      transform: translateX(100%);
-    }
-  }
-
-  .text {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: .15s ease-out;
-  }
 }
 
-.x-mark {
-  right: 10px;
-  top: 10px;
-  position: absolute;
-  cursor: pointer;
-  opacity: 0;
-  
-  &:hover {
-    .right {
-      transform: rotate(-45deg) scaleY(1.2);
-    }
-
-    .left {
-      transform: rotate(45deg) scaleY(1.2);
-    }
-  }
-
-  .container {
-    position: relative;
-    width: 20px;
-    height: 20px;
-  }
-
-  .left, .right {
-    width: 2px;
-    height: 20px;
-    background: white;
-    position: absolute;
-    border-radius: 3px;
-    transition: .15s ease-out;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-  }
-
-  .right {
-    transform: rotate(-45deg);
-  }
-
-  .left {
-    transform: rotate(45deg);
-  }
+#list {
+  margin-left: 3%;
 }
 
-/*FIN DE BACKGROUND*/
+#list li {
+  list-style: none;
+  display: inline-block;
+  margin-left: -5%;
+  margin-top: 3%;
+  text-align: center;
+}
+
+#list li p{
+  width: 70%;
+  margin-left: 45%;
+}
+
+#list li h3 {
+  text-align: center;
+  margin-left: 50%;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 500;
+  margin-top: 3%;
+}
+
+#bootstrap, #css, #html, #javascript, #jquery {
+  color: #000;
+  font-size: 80px;
+  margin-left: 50%;
+}
+
+#mocha, #react, #nodejs, #sass, #angular {
+  color: #000;
+  font-size: 80px;
+  margin-left: 50%;
+}
+
+/*PROJECTS*/
+#projects {
+  margin-top: 10%;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#card1, #card2, #card3 {
+  margin-left: 10%;
+}
+
+#card {
+  width: 90%;
+  height: 60%;
+}
+
+.card-title {
+  margin-top: 8%;
+  text-align: center;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+#demo {
+  margin-left: 5%;
+}
+
+#code, #demo {
+  border: none;
+
+}
+
+#row1 {
+  margin-top: 5%;
+}
+
+/*CONTACT*/
+#contact {
+  margin-top: 10%;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
