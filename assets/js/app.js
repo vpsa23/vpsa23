@@ -1,8 +1,16 @@
-$(document).ready( => () {
+$(document).ready(() => {
+
+  $("#name").smoove({
+    offset: '15%',
+    moveY: '100px',
+  });
 
 });
 
 
+
+
+// Evento del menú
 $('a').on('click', function(event) {
   if (this.menu !== '') {
     event.preventDefault();
@@ -14,7 +22,3 @@ $('a').on('click', function(event) {
     });
   }
 });
-
-$('.fa-arrow-down').on('click', function(event) {
-
-})

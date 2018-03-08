@@ -7,19 +7,19 @@ body {
   width: 100%;
   height: auto;
   margin-top: 500%;
-  background: rgba(122,245,208,0.71);
+  /*background: rgba(122,245,208,0.71);
   background: -moz-linear-gradient(top, rgba(122,245,208,0.71) 16%, rgba(17,184,134,0.71) 31%, rgba(40,173,87,0.71) 46%, rgba(234,215,159,0.71) 71%, rgba(1,77,3,0.71) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(16%, rgba(122,245,208,0.71)), color-stop(31%, rgba(17,184,134,0.71)), color-stop(46%, rgba(40,173,87,0.71)), color-stop(71%, rgba(234,215,159,0.71)), color-stop(100%, rgba(1,77,3,0.71)));
   background: -webkit-linear-gradient(top, rgba(122,245,208,0.71) 16%, rgba(17,184,134,0.71) 31%, rgba(40,173,87,0.71) 46%, rgba(234,215,159,0.71) 71%, rgba(1,77,3,0.71) 100%);
   background: -o-linear-gradient(top, rgba(122,245,208,0.71) 16%, rgba(17,184,134,0.71) 31%, rgba(40,173,87,0.71) 46%, rgba(234,215,159,0.71) 71%, rgba(1,77,3,0.71) 100%);
   background: -ms-linear-gradient(top, rgba(122,245,208,0.71) 16%, rgba(17,184,134,0.71) 31%, rgba(40,173,87,0.71) 46%, rgba(234,215,159,0.71) 71%, rgba(1,77,3,0.71) 100%);
   background: linear-gradient(to bottom, rgba(122,245,208,0.71) 16%, rgba(17,184,134,0.71) 31%, rgba(40,173,87,0.71) 46%, rgba(234,215,159,0.71) 71%, rgba(1,77,3,0.71) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7af5d0', endColorstr='#014d03', GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7af5d0', endColorstr='#014d03', GradientType=0 );*/
 }
 
 /*BACKGROUND*/
 #welcome {
-  background-image: url(../img/fondo10.png);
+  background-image: url(../img/fondo.png);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -39,12 +39,6 @@ body {
   border-radius: 50%;
   width: 40%;
   height: 10vh;
-  background: rgba(255,0,132,0.46);
-  background: -moz-linear-gradient(-45deg, rgba(255,0,132,0.46) 0%, rgba(255,0,132,0.45) 0%, rgba(255,0,132,0.45) 48%, rgba(255,0,132,0.45) 97%);
-  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,0,132,0.46)), color-stop(0%, rgba(255,0,132,0.45)), color-stop(48%, rgba(255,0,132,0.45)), color-stop(97%, rgba(255,0,132,0.45)));
-  background: -webkit-linear-gradient(-45deg, rgba(255,0,132,0.46) 0%, rgba(255,0,132,0.45) 0%, rgba(255,0,132,0.45) 48%, rgba(255,0,132,0.45) 97%);
-  background: -o-linear-gradient(-45deg, rgba(255,0,132,0.46) 0%, rgba(255,0,132,0.45) 0%, rgba(255,0,132,0.45) 48%, rgba(255,0,132,0.45) 97%);
-  background: -ms-linear-gradient(-45deg, rgba(255,0,132,0.46) 0%, rgba(255,0,132,0.45) 0%, rgba(255,0,132,0.45) 48%, rgba(255,0,132,0.45) 97%);
 }
 
 .navbar button span i {
@@ -104,6 +98,11 @@ body {
   width: 40%;
 }
 
+#flower {
+  width: 120%;
+  height: 100vh;
+}
+
 #aboutMe h1{
   margin-top: 10%;
   margin-left: 110%;
@@ -112,25 +111,21 @@ body {
   font-family: 'Parisienne', cursive;
   font-weight: 600;
   text-align: center;
-  color: #FFF;
+  color: #000;
 }
 
 #me {
-  width: 50%;
-  height: 75%;
+  width: 70%;
+  height: 50%;
   border-radius: 50%;
   margin-top: 5%;
-  margin-left: 25%;
+  margin-left: 5%;
 }
 
 #textMe p{
-  width: 70%;
+  width: 100%;
   margin-top: 8%;
   height: 15%;
-}
-
-#aboutSection {
-  border-top: 5px solid rgba(59,227,179,0.71);;
 }
 
 /*SKILLS*/
