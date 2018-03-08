@@ -4,13 +4,17 @@ $(document).ready( => () {
 
 
 $('a').on('click', function(event) {
-  if (this.hash !== '') {
+  if (this.menu !== '') {
     event.preventDefault();
-    var hash = this.hash;
+    var menu = this.menu;
     $('html, body').animate({
-      scrollTop: $(hash).offset().top
+      scrollTop: $(menu).offset().top
     }, 500, function(){
-      window.location.hash = hash;
+      window.location.menu = menu;
     });
   }
 });
+
+$('.fa-arrow-down').on('click', function(event) {
+
+})
