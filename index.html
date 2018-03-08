@@ -9,77 +9,106 @@
 
   <!--LINKS-->
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/query.css">
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Great+Vibes|Playball|Satisfy" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Parisienne" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/arafkarim/BootstrapPlusPlus/2d8d0b9d/bpp/bpp.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 </head>
 <body>
-  <div id="containerPrincipal">
-  <header>
-    <nav>
-      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="nav">
-        <ul>
-          <li>About Me</li>
-          <li>Skills</li>
-          <li>Projects</li>
-          <li>Contact Me</li>
-        </ul>
-        
-      </div>
-    </nav>
-  </header>
 
-  <section>
+<header>
+  <section id="welcome">
     <div class="row">
-      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6" id="inicio">
+      <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2" id="nav">
+        <div class="pos-f-t">
+          <div class="collapse " id="navbarToggleExternalContent">
+            <div class=" p-4">
+              <ul id="menu">
+                <li><a href="#aboutSection" title="AboutSection" class="cl-effect-1">About Me</a></li>
+                <li><a href="#skillSection" title="SkillSection" class="cl-effect-1">Technical Skill Set</a></li>
+                <li><a href="#projectsSection" title="ProjectSection" class="cl-effect-1">Projects</a></li>
+                <li><a href="#contactSection" title="ContactSection" class="cl-effect-1">Contact me</a></li>
+              </ul>
+            </div>
+          </div>
+  <nav class="navbar navbar flex-column">
+    <button class="navbar-toggler nav-brand" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" id="icon">
+      <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+    </button>
+  </nav>
+</div>
+    </div>
+  </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 w3-container w3-center w3-animate-right w3-slow" id="inicio">
         <ul>
-          <li><img src="assets/img/yo.jpg" alt=""></li>
           <li><h3>Valeria Santeliz</h3></li>
           <li><p>Front-end Developer</p></li>
+          <li></li>
         </ul>
       </div>
+    </div>
+  </section>
+</header>
 
-      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6" id="aboutMe">
-        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam debitis totam, dolore, placeat sed explicabo porro dolor voluptatibus earum minus architecto sapiente inventore doloribus in assumenda perferendis mollitia sunt repellat? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi accusantium tenetur eum nisi, quis provident, voluptatum mollitia sint iure molestiae quia odio impedit quos aspernatur, suscipit blanditiis quasi sunt porro.</h1>
+  <section id="aboutSection">
+    <div class="row" id="about">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="aboutMe">
+        <h1>About Me</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+        <img src="assets/img/yo.jpg" alt="" id="me">
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 text-justify" id="textMe">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum placeat alias, sapiente laboriosam veritatis, est quia eius veniam, architecto quas nihil facere, deleniti repellendus modi voluptas quo itaque commodi qui?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus velit eaque minima eum, facere, rem esse, fugiat cum amet fuga voluptas! Praesentium asperiores, doloribus modi ipsam dolore non maxime accusantium?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto facilis sint eum ut saepe tempore voluptatibus, dicta, iure earum non accusantium neque eius, omnis tenetur ea. Tempore reprehenderit cumque corrupti!</p>
       </div>
     </div>
   </section>
 
-  <section>
-    <div class="row">
+  <section id="skillSection">
+    <div class="row" id="skill">
       <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="skills">
         <h1>Technical Skill Set</h1>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" >
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 w3-container w3-center w3-animate-right w3-slow" >
         <ul id="list">
-          <li><i class="devicon-bootstrap-plain" id="bootstrap"></i><h3>Bootstrap</h3><p>Open source framework for designing websites.</p></li>
-          <li><i class="devicon-css3-plain" id="css"></i><h3>Css 3</h3><p>Style sheet language used in web.</p></li>
-          <li><i class="devicon-html5-plain" id="html"></i><h3>Html5</h3><p>Markup language for the structure of web.</p></li>
-          <li><i class="devicon-javascript-plain" id="javascript"></i><h3>Javascript</h3><p>Interpreted programming language.</p></li>
-          <li><i class="devicon-jquery-plain-wordmark" id="jquery"></i><h3>Jquery</h3><p>JavaScript library client-side scripting of HTML.</p></li>
+          <li><i class="devicon-bootstrap-plain" id="bootstrap"></i><h3>Bootstrap</h3></li>
+          <li><i class="devicon-css3-plain" id="css"></i><h3>Css 3</h3></li>
+          <li><i class="devicon-html5-plain" id="html"></i><h3>Html5</h3></li>
+          <li><i class="devicon-javascript-plain" id="javascript"></i><h3>Javascript</h3></li>
+          <li><i class="devicon-jquery-plain-wordmark" id="jquery"></i><h3>Jquery</h3></li>
         </ul>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" >
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 w3-container w3-center w3-animate-right w3-slow" >
         <ul id="list">
-          <li><i class="devicon-mocha-plain" id="mocha"></i><h3>Mocha</h3><p>Open source framework for designing websites.</p></li>
-          <li><i class="devicon-react-plain" id="react"></i><h3>React</h3><p>Style sheet language used in web.</p></li>
-          <li><i class="devicon-nodejs-plain" id="nodejs"></i><h3>NodeJS</h3><p>Markup language for the structure of web.</p></li>
-          <li><i class="devicon-sass-plain" id="sass"></i><h3>Sass</h3><p>Interpreted programming language.</p></li>
-          <li><i class="devicon-angularjs-plain-wordmark" id="angular"></i><h3>AngularJS</h3><p>JavaScript library client-side scripting of HTML.</p></li>
+          <li><i class="devicon-mocha-plain" id="mocha"></i><h3>Mocha</h3></li>
+          <li><i class="devicon-react-plain" id="react"></i><h3>React</h3></li>
+          <li><i class="devicon-nodejs-plain" id="nodejs"></i><h3>NodeJS</h3></li>
+          <li><i class="devicon-sass-plain" id="sass"></i><h3>Sass</h3></li>
+          <li><i class="devicon-angularjs-plain-wordmark" id="angular"></i><h3>AngularJS</h3></li>
         </ul>
       </div>
     </div>
   </section>
 
-  <section>
+  <section id="projectsSection">
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="projects">
         <h1>Projects</h1>
@@ -143,21 +172,22 @@
     </div>
   </section>
 
-  <section>
+  <section id="contactSection">
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="contact">
         <h1>Contact Me</h1>
       </div>
 
+    <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="contact">
         <h3>Feel free to contact me</h3>
       </div>
     </div>
   </section>
   
+  <i class="fas fa-envelope"></i>
 
   
-  </div>
 
 
 
@@ -169,6 +199,8 @@
   <!--SCRIPTS-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="assets/js/app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
