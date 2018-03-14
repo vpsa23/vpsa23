@@ -10,7 +10,7 @@ $(document).ready(() => {
 
 
 
-// Evento del menú
+/* Evento del menú
 $('a').on('click', function(event) {
   if (this.menu !== '') {
     event.preventDefault();
@@ -21,4 +21,6 @@ $('a').on('click', function(event) {
       window.location.menu = menu;
     });
   }
-});
+});*/
+
+

@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="assets/css/query.css">
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Great+Vibes|Playball|Satisfy" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Parisienne" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" href="https://cdn.rawgit.com/arafkarim/BootstrapPlusPlus/2d8d0b9d/bpp/bpp.min.css">
@@ -20,14 +21,16 @@
 </head>
 <body>
 
+<!--PAGINA PRINCIPAL-->
 <header>
   <section id="welcome">
     <div class="row">
       <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2" id="nav">
         <div class="pos-f-t">
           <div class="collapse " id="navbarToggleExternalContent">
-            <div class=" p-4">
+            <div class="p-4">
               <ul id="menu">
+                <li><a href="#inicioSection" title="inicioSection" class="cl-effect-1">Home</a></li>
                 <li><a href="#aboutSection" title="AboutSection" class="cl-effect-1">About Me</a></li>
                 <li><a href="#skillSection" title="SkillSection" class="cl-effect-1">Technical Skill Set</a></li>
                 <li><a href="#projectsSection" title="ProjectSection" class="cl-effect-1">Projects</a></li>
@@ -35,64 +38,60 @@
               </ul>
             </div>
           </div>
-  <nav class="navbar navbar flex-column">
-    <button class="navbar-toggler nav-brand" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" id="icon">
-      <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-    </button>
-  </nav>
-</div>
+        <nav class="navbar navbar flex-column">
+          <button class="navbar-toggler nav-brand" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" id="icon">
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+          </button>
+        </nav>
+        </div>
+      </div>
     </div>
-  </div>
 
-    <div class="row">
+    <div class="row" id="inicioSection">
       <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 w3-container" id="inicio">
         <ul id="name">
           <li><h3>Valeria Santeliz</h3></li>
           <li><p>Front-end Developer</p></li>
-          <li><button class="btn" id="btn1"><i class="fas fa-arrow-down"></i></button></li>
         </ul>
       </div>
     </div>
   </section>
 </header>
 
+<!--MI PERFIL-->
   <section id="aboutSection">
     <div class="row" id="about">
       <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="aboutMe">
-        <h1>About Me</h1>
+        <img src="assets/img/about-me.png" alt="">
       </div>
     </div>
 
     <div class="row">
-      <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
-        <img src="assets/img/flower.png" alt="" id="flower">
-      </div>
-
       <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
-        <img src="assets/img/yo.jpg" alt="" id="me">
+        <img src="assets/img/me.png" alt="" id="me">
       </div>
 
       <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 text-justify" id="textMe">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum placeat alias, sapiente laboriosam veritatis, est quia eius veniam, architecto quas nihil facere, deleniti repellendus modi voluptas quo itaque commodi qui?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus velit eaque minima eum, facere, rem esse, fugiat cum amet fuga voluptas! Praesentium asperiores, doloribus modi ipsam dolore non maxime accusantium?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto facilis sint eum ut saepe tempore voluptatibus, dicta, iure earum non accusantium neque eius, omnis tenetur ea. Tempore reprehenderit cumque corrupti!</p>
       </div>
 
       <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
-        <img src="assets/img/flower - copia.png" alt="" id="flower">
+        <img src="assets/img/primera-seccion.png" alt="" id="hoja">
       </div>
+
     </div>
   </section>
 
+<!--SECCION DE HABILIDADES-->
   <section id="skillSection">
     <div class="row" id="skill">
       <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="skills">
-        <h1>Technical Skill Set</h1>
+        <img src="assets/img/my-skills.png" alt="">
       </div>
     </div>
 
     <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 w3-container w3-center w3-animate-right w3-slow" >
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 w3-container w3-center w3-animate-right w3-slow" id="list1">
         <ul id="list">
           <li><i class="devicon-bootstrap-plain" id="bootstrap"></i><h3>Bootstrap</h3></li>
           <li><i class="devicon-css3-plain" id="css"></i><h3>Css 3</h3></li>
@@ -105,45 +104,80 @@
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 w3-container w3-center w3-animate-right w3-slow" >
         <ul id="list">
-          <li><i class="devicon-jquery-plain-wordmark" id="jquery"></i><h3>Jquery</h3></li> 
+          <li><i class="devicon-jquery-plain-wordmark" id="jquery"></i><h3>Jquery</h3></li>
           <li><i class="devicon-react-plain" id="react"></i><h3>React</h3></li>
           <li><i class="devicon-sass-plain" id="sass"></i><h3>Sass</h3></li>
         </ul>
       </div>
     </div>
-  </section>
 
-  <section id="projectsSection">
     <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="projects">
-        <h1>Projects</h1>
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <img src="assets/img/skills-fondo.png" alt="" id="fondoSkills">
       </div>
     </div>
 
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <img src="assets/img/lado copia.png" alt="" id="enrredadera">
+      </div>
+    </div>
+  </section>
+
+<!--SECCION DE MIS PROYECTOS-->
+  <section id="projectsSection">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="projects">
+        <img src="assets/img/projects.png" alt="">
+      </div>
+    </div>
+
+    <div class="row" id="cardSection">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
         <div class="card-group" id="card">
+
+          <!--CARD #1-->
           <div class="card" id="card1">
-            <img class="card-img-top" src="assets/img/Spa.PNG" alt="Card image cap">
-          <div class="card-body">
+            <div id="circle1"><img class="card-img-top" src="assets/img/Spa.PNG" alt="Card image cap"></div>
+            <div id="circle2">
+              <div id="text4">
+                <p>Html5, Css3, Page.js, Bootstrap</p>
+              </div>
+            </div>
+          <div class="card-body" id="cardBody">
             <h5 class="card-title">Single Page Application</h5>
             <button type="text" class="btn" id="code"><a href="https://github.com/vpsa23/techPage" target="_blank">Code</a></button>
             <button type="text" class="btn" id="demo"><a href="https://vpsa23.github.io/techPage/" target="_blank">Demo</a></button>
           </div>
           </div>
+
+          <!--CARD #2-->
           <div class="card" id="card2">
-            <img class="card-img-top" src="assets/img/Lyft.PNG" alt="Card image cap">
+            <div id="circle1"><img class="card-img-top" src="assets/img/flore1.png" alt="Card image cap"></div>
+            <div id="circle2">
+              <div id="text4">
+                <p>Html5, Css3, Bootstrap, Grids</p>
+              </div>
+            </div>
           <div class="card-body">
-            <h5 class="card-title">Lyft</h5>
-            <button type="text" class="btn" id="code"><a href="https://github.com/vpsa23/lyft" target="_blank"></a>Code</button>
-            <button type="text" class="btn" id="demo">Demo</button>
+            <h5 class="card-title" style="margin-top: -15%;">Lyft</h5>
+            <button type="text" class="btn" id="code"><a href="https://github.com/vpsa23/lyft" target="_blank">Code</a></button>
+            <button type="text" class="btn" id="demo"><a href="https://vpsa23.github.io/lyft/" target="_blank">Demo</a></button>
           </div>
           </div>
+
+          <!--CARD #3-->
           <div class="card" id="card3">
-            <img class="card-img-top" src="assets/img/red-social.PNG" alt="Card image cap">
+            <div id="circle1"><img class="card-img-top" src="assets/img/red-social.png" alt="Card image cap"></div>
+            <div id="circle2">
+              <div id="text4">
+                <p>Html5, Css3, Bootstrap, JQuery</p>
+              </div>
+            </div>
           <div class="card-body">
             <h5 class="card-title">Red-Social</h5>
-            <button type="text" class="btn" id="code">Code</button><button type="text" class="btn" id="demo">Demo</button>
+            <button type="text" class="btn" id="code">Code</button>
+            <button type="text" class="btn" id="demo">Demo</button>
           </div>
           </div>
         </div>
@@ -153,24 +187,47 @@
     <div class="row" id="row1">
       <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
         <div class="card-group" id="card">
-          <div class="card" id="card1">
-            <img class="card-img-top" src="assets/img/Spa.PNG" alt="Card image cap">
+
+          <!--CARD #4-->
+          <div class="card" id="card4">
+            <div id="circle1"><img class="card-img-top" src="assets/img/extract-links.png" alt="Card image cap"></div>
+            <div id="circle2">
+              <div id="text4">
+                <p>Html5, Css3, Node.js, Mocha</p>
+              </div>
+            </div>
           <div class="card-body">
-            <h5 class="card-title">Single Page Application</h5>
-            <button type="text" class="btn" id="code">Code</button><button type="text" class="btn" id="demo">Demo</button>
+            <h5 class="card-title">Extract-Links</h5>
+            <button type="text" class="btn" id="code"><a href="https://github.com/vpsa23/extract-links-from-md" target="_blank">Code</a></button>
+            <button type="text" class="btn" id="demo">Demo</button>
           </div>
           </div>
-          <div class="card" id="card2">
-            <img class="card-img-top" src="assets/img/Lyft.PNG" alt="Card image cap">
+
+          <!--CARD #5-->
+          <div class="card" id="card5">
+            <div id="circle1"><img class="card-img-top" src="assets/img/twitter.png" alt="Card image cap"></div>
+            <div id="circle2">
+              <div id="text4">
+                <p>Html5, Css3, Dom</p>
+              </div>
+            </div>
           <div class="card-body">
-            <h5 class="card-title">Lyft</h5>
-            <button type="text" class="btn" id="code">Code</button><button type="text" class="btn" id="demo">Demo</button>
+            <h5 class="card-title">Twitter</h5>
+            <button type="text" class="btn" id="code"><a href="https://github.com/vpsa23/Twitter" target="_blank">Code</a></button>
+            <button type="text" class="btn" id="demo"><a href="https://vpsa23.github.io/Twitter/" target="_blank">Demo</a></button>
           </div>
           </div>
-          <div class="card" id="card3">
-            <img class="card-img-top" src="assets/img/red-social.PNG" alt="Card image cap">
+
+          <!--CARD #6-->
+          <div class="card" id="card6">
+            <div id="circle1"><img class="card-img-top" src="assets/img/chat.png" alt="Card image cap"></div>
+            <div id="circle2">
+              <div id="text4">
+                <p>Html5, Css3, Socket.io</p>
+              </div>
+            </div>
           <div class="card-body">
-            <h5 class="card-title">Red-Social</h5>
+            <h5 class="card-title">ChatWeb</h5>
             <button type="text" class="btn" id="code">Code</button><button type="text" class="btn" id="demo">Demo</button>
           </div>
           </div>
@@ -182,17 +239,39 @@
   <section id="contactSection">
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="contact">
-        <h1>Contact Me</h1>
+        <img src="assets/img/contact-me.png" alt="">
+      </div>
+    </div>
+
+    <div class="row" id="listContent">
+      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+        <img src="assets/img/flores5.png" alt="" id="listImg">
       </div>
 
-    <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="contact">
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6" id="listContact">
         <h3>Feel free to contact me</h3>
+        <ul>
+          <li><img src="assets/img/github.png"></li>
+          <li><img src="assets/img/email.png" alt=""></li>
+          <li><img src="assets/img/phone.png" alt=""></li>
+        </ul>
+      </div>
+
+      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+        <img src="assets/img/flores6.png" alt="" id="listImg2">
+      </div>
+    </div>
+  </section>
+
+  <section id="developer">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <h4>Developed by Valeria Santeliz</h4>
       </div>
     </div>
   </section>
   
-  <i class="fas fa-envelope"></i>
+
 
   
 
@@ -206,6 +285,7 @@
   <!--SCRIPTS-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.10/jquery.smoove.min.js"></script>
+  <script src="http://cdn.jsdelivr.net/walkway/0.0.7/walkway.min.js"></script>
   <script src="assets/js/app.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
