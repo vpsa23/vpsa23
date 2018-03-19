@@ -1,4 +1,4 @@
-@media (max-width: 575.98px) { 
+@media (min-width: 500px) and (max-width: 800) { 
 
   * {
     margin: 0;
@@ -115,6 +115,7 @@
     margin-left: 10%;
     width: 80%;
     height: 15%;
+    margin-top: 3%;
   }
 
   /*SKILLS*/
