@@ -6,7 +6,7 @@ $(document).ready(() => {
   new ScrollMagic.Scene({
       triggerElement: '#me'
     })
-    .setClassToggle('#me', 'show')
+    .setClassToggle('#me', 'fade-in')
     .addTo(controller);
 
 });

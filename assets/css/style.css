@@ -3,16 +3,16 @@
   padding: 0;
 }
 
-body {
-  width: 100%;
+/*body {
   height: auto;
   margin-top: 500%;
-}
+}*/
 
 /*BACKGROUND*/
 #welcome {
   background-image: url(../img/fondo.png);
   height: 100vh;
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 20% 15%;
@@ -115,8 +115,9 @@ body {
   transition: .5s;
 }
 
-#me.show {
+#me.fade-in {
   opacity: 1;
+  width: 105%;
 }
 
 #textMe {
@@ -130,6 +131,11 @@ body {
   margin-left: 50%;
   font-weight: 500;
 }
+
+#textMe mark {
+  background-color: #CCCCFF;
+}
+
 
 #hoja {
   width: 200%;
@@ -313,6 +319,15 @@ body {
   font-family: 'Alegreya Sans', sans-serif;
   font-weight: 500;
   font-size: 20px;
+}
+
+#code1, #demo1 {
+  border: none;
+  background-color: #C39BD3;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 15%;
 }
 
 #row1 {
