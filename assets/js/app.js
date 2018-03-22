@@ -9,6 +9,12 @@ $(document).ready(() => {
     .setClassToggle('#me', 'fade-in')
     .addTo(controller);
 
+
+  new ScrollMagic.Scene({
+      triggerElement: '#list1'
+    })
+    .setClassToggle('#list1', 'show')
+    .addTo(controller);
 });
 
 

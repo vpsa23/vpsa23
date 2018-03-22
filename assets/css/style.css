@@ -156,11 +156,17 @@
 
 #list1 {
   margin-top: -10%;
+  opacity: 0;
+  transition: .5s34ktytt6;
+}
+
+#list1.show {
+  opacity: 1;
+  width: 100%;
 }
 
 #list {
   margin-left: -10%;
-  margin-top: -%;
 }
 
 #list li {
