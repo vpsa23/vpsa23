@@ -134,6 +134,7 @@
 
 #textMe mark {
   background-color: #CCCCFF;
+  
 }
 
 
@@ -157,14 +158,14 @@
 }
 
 #list {
-  margin-left: -15%;
+  margin-left: -10%;
   margin-top: -%;
 }
 
 #list li {
   list-style: none;
   display: inline-block;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top: 3%;
   text-align: center;
 }
@@ -178,16 +179,20 @@
   margin-top: 3%;
 }
 
-#bootstrap, #css, #html, #javascript, #jquery {
+#list2 {
+  margin-left: 10%;
+}
+
+#bootstrap, #css, #html, #javascript {
   color: #000;
   font-size: 80px;
   margin-left: 50%;
 }
 
-#react, #sass {
+#jquery, #react, #sass {
   color: #000;
   font-size: 80px;
-  margin-left: 50%;
+  margin-left: 120%;
 }
 
 #bootstrap:hover {
@@ -210,7 +215,7 @@
   color: #283593;
 }
 
-#react:hover {
+#photoshop:hover {
   color: #4DD0E1;
 }
 
