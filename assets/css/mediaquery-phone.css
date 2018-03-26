@@ -35,6 +35,8 @@
     background: -ms-linear-gradient(-45deg, rgba(255,255,255,0.58) 0%, rgba(246,246,246,0.58) 47%, rgba(237,237,237,0.58) 99%, rgba(237,237,237,0.39) 100%);
     background: linear-gradient(135deg, rgba(255,255,255,0.58) 0%, rgba(246,246,246,0.58) 47%, rgba(237,237,237,0.58) 99%, rgba(237,237,237,0.39) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+    margin-left: 10%;
+    width: 100%;
   }
 
   #nav {
@@ -146,6 +148,7 @@
 
   #rowSkills1 {
     margin-top: 15%;
+    margin-left: s%;
   }
 
   #rowSkills {
@@ -160,21 +163,7 @@
     text-align: center;
   }
 
-  #list {
-    margin-left: -20%;
-    margin-top: -5%;
-  }
-
-  #list li {
-    list-style: none;
-    display: inline-block;
-    margin-left: 3%;
-    margin-top: 3%;
-    text-align: center;
-
-  }
-
-  #list li h3 {
+  #list1 h3 {
     width: 100%;
     text-align: center;
     margin-left: 30%;
@@ -185,12 +174,15 @@
   }
 
   #list1 {
-    margin-top: -10%;
-    margin-left: 20%;
+    margin-top: -6%;
+  }
+
+  #list1 li {
+    margin-left: 3%;
   }
 
   #list2 {
-    margin-top: 5%;
+    margin-top: %;
     margin-left: 30%;
   }
 
@@ -200,6 +192,10 @@
     display: inline-block;
     margin-left: 3%;
     text-align: center;
+  }
+
+  #list2.show {
+    margin-left: 20%;
   }
 
   #list2 ul li h3 {

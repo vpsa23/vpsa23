@@ -169,7 +169,11 @@
 }
 
 #list1 {
-  margin-left: 8%;
+  margin-left: -5%;
+}
+
+#rowSkills1{
+  margin-left: 13%;
 }
 
 #list li {
