@@ -148,10 +148,12 @@
 
   #rowSkills1 {
     margin-top: 5%;
+    margin-left: -35;
   }
 
   #rowSkills {
     margin-top: 5%;
+    margin-left: -20%;
   } 
 
   #skills img {
@@ -181,7 +183,7 @@
   }
 
   #list1.show {
-    margin-left: -30%;
+    opacity: 1;
   }
 
   #list2 {
@@ -198,7 +200,7 @@
   }
 
   #list2.show {
-    margin-left: 20%;
+    opacity: 1;
   }
 
   #list2 ul li h3 {
@@ -225,7 +227,7 @@
   #fondoSkills {
     width: 70%;
     height: 30vh;
-    margin-top: -2%;
+    margin-top: -5%;
     margin-left: %;
   }
 
