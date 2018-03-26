@@ -128,10 +128,10 @@
   }
 
   #me.fade-in {
-  opacity: 1;
-  width: 70%;
-  margin-left: 15%;
-}
+    opacity: 1;
+    width: 70%;
+    margin-left: 15%;
+  }
 
   #textMe p{
     font-size: 12px;
@@ -147,13 +147,13 @@
   }
 
   #rowSkills1 {
-    margin-top: 5%;
-    margin-left: -35;
+    margin-top: 2%;
+    margin-left: -100;
   }
 
   #rowSkills {
     margin-top: 5%;
-    margin-left: -20%;
+    margin-left: -15%;
   } 
 
   #skills img {
@@ -164,10 +164,10 @@
     text-align: center;
   }
 
-  #list1 h3 {
+  #list1 ul li h3 {
     width: 100%;
     text-align: center;
-    margin-left: 30%;
+    margin-left: -5%;
     font-family: 'Alegreya Sans', sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -175,7 +175,7 @@
   }
 
   #list1 {
-    margin-top: %;
+    opacity: 0;
   }
 
   #list1 li {
@@ -188,14 +188,14 @@
 
   #list2 {
     margin-top: %;
-    margin-left: 30%;
+    margin-left: 15%;
+    opacity: 0;
   }
 
 
   #list2 li {
     list-style: none;
     display: inline-block;
-    margin-left: 3%;
     text-align: center;
   }
 
@@ -206,7 +206,7 @@
   #list2 ul li h3 {
     width: 100%;
     text-align: center;
-    margin-left: 30%;
+    margin-left: 10%;
     font-family: 'Alegreya Sans', sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -216,19 +216,19 @@
   #bootstrap, #css, #html, #javascript {
     color: #000;
     font-size: 40px;
+    margin-left: -5%;
   }
 
   #photoshop, #sass, #jquery{
     color: #000;
     font-size: 40px;
-    margin-left: 50%;
+    margin-left: -5%;
   }
 
   #fondoSkills {
     width: 70%;
     height: 30vh;
     margin-top: -5%;
-    margin-left: %;
   }
 
   #enrredadera {
