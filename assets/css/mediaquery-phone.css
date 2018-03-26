@@ -459,7 +459,7 @@
   #card1:hover #circle2 {
     width: 90%;
     height: 35vh;
-    margin-top: 4%;
+    margin-top: 8%;
     margin-left: -2%;
   }
 
@@ -473,7 +473,7 @@
   #card2:hover #circle2 {
     width: 90%;
     height: 38vh;
-    margin-top: 10%;
+    margin-top: 13%;
     margin-left: -2%;
   }
 
@@ -487,7 +487,7 @@
   #card3:hover #circle2 {
     width: 84%;
     height: 36vh;
-    margin-top: 12%;
+    margin-top: 16%;
     margin-left: -1%;
   }
 
@@ -501,7 +501,7 @@
   #card4:hover #circle2 {
     width: 85%;
     height: 38vh;
-    margin-top: -85%;
+    margin-top: -79%;
     margin-left: 2%;
   }
 
@@ -515,7 +515,7 @@
   #card5:hover #circle2 {
     width: 85%;
     height: 36vh;
-    margin-top: -87%;
+    margin-top: -81%;
     margin-left: 4%;
   }
 
@@ -529,7 +529,7 @@
   #card6:hover #circle2 {
     width: 85%;
     height: 37vh;
-    margin-top: -84%;
+    margin-top: -78%;
     margin-left: 3%;
   }
 
