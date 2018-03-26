@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 560px) { 
+@media (min-width: 320px) and (max-width: 720px) { 
 
   * {
     margin: 0;
@@ -26,25 +26,20 @@
     z-index: 100;
   }
 
+  #nav {
+    width: 100%;
+  }
+
   #icon {
-    border: 1.5px solid #000;
-    border-radius: 50%;
-    background: rgba(0,0,0,0.43);
-    background: -moz-linear-gradient(-45deg, rgba(0,0,0,0.43) 51%, rgba(19,19,19,0.43) 99%, rgba(19,19,19,0.42) 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(51%, rgba(0,0,0,0.43)), color-stop(99%, rgba(19,19,19,0.43)), color-stop(100%, rgba(19,19,19,0.42)));
-    background: -webkit-linear-gradient(-45deg, rgba(0,0,0,0.43) 51%, rgba(19,19,19,0.43) 99%, rgba(19,19,19,0.42) 100%);
-    background: -o-linear-gradient(-45deg, rgba(0,0,0,0.43) 51%, rgba(19,19,19,0.43) 99%, rgba(19,19,19,0.42) 100%);
-    background: -ms-linear-gradient(-45deg, rgba(0,0,0,0.43) 51%, rgba(19,19,19,0.43) 99%, rgba(19,19,19,0.42) 100%);
-    background: linear-gradient(135deg, rgba(0,0,0,0.43) 51%, rgba(19,19,19,0.43) 99%, rgba(19,19,19,0.42) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#131313', GradientType=1 );
     width: 40%;
     height: 10vh;
   }
 
-  .navbar button span i {
+  #iconNav {
     color: #000;
-    font-size: 20px;
-    margin-top: 15%;
+    font-size: 30px;
+    margin-top: 35%;
+    margin-left: -170%;
   }
 
   #nav ul li{
@@ -60,6 +55,10 @@
   }
 
   /*INICIO*/
+  #inicioSection {
+    width: 100%;
+  }
+
   #inicio ul li {
     list-style: none;
     text-align: center;
@@ -103,7 +102,7 @@
     margin-top: 5%;
     margin-left: 50%;
     font-size: 50px;
-    width: 200%;
+    width: 210%;
     text-align: center;
   }
 
@@ -130,11 +129,23 @@
   }
 
   /*SKILLS*/
+  #skillSection {
+    height: 100vh;
+  }
+
+  #rowSkills1 {
+    margin-top: 15%;
+  }
+
+  #rowSkills {
+    margin-top: 5%;
+  } 
+
   #skills img {
     margin-top: -35%;
     margin-left: 1%;
     font-size: 50px;
-    width: 85%;
+    width: 90%;
     text-align: center;
   }
 
@@ -149,6 +160,7 @@
     margin-left: 4%;
     margin-top: 3%;
     text-align: center;
+
   }
 
   #list li h3 {
@@ -161,26 +173,38 @@
     margin-top: 3%;
   }
 
+  #list1 {
+    margin-top: -10%;
+  }
+
+  #list1.show {
+    margin-left: 15%;
+  }
+
   #list2 {
-    margin-left: 20%;
-    margin-top: 20%;
+    margin-top: 5%;
+  }
+
+  #list2.show {
+    opacity: 2;
+    width: 100%;
+    margin-left: 25%;
   }
 
   #list2 li {
     list-style: none;
     display: inline-block;
-    margin-left: 6%;
+    margin-left: 3%;
     text-align: center;
   }
 
-
-  #list2 li h3 {
+  #list2 ul li h3 {
     width: 100%;
     text-align: center;
     margin-left: 30%;
     font-family: 'Alegreya Sans', sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 3%;
   }
 
@@ -196,9 +220,9 @@
   }
 
   #fondoSkills {
-    width: 40%;
-    height: 20vh;
-    margin-top: -5%;
+    width: 70%;
+    height: 30vh;
+    margin-top: -2%;
     margin-left: %;
   }
 
@@ -208,7 +232,7 @@
 
   /*PROJECTS*/
   #projectsSection {
-    height: 350vh;
+    height: 430vh;
   }
 
   #projects img{
@@ -219,59 +243,67 @@
     text-align: center;
   }
 
+  #cardSection {
+    margin-top: -80%;
+  }
+
+  #cardSection1 {
+    display: block;
+    margin-top: 90%;
+  }
+
+
   #card1, #card2, #card3{
     margin-left: 10%;
-    margin-top: 80%;
+    margin-top: 90%;
     border: none;
     transform: translate(-50%, -50%);
   }
 
   #card4, #card5, #card6 {
     margin-left: 10%;
-    margin-top: 80%;
+    margin-top: 20%;
     border: none;
     transform: translate(-50%, -50%);
   }
 
-  #cardSection {
-    margin-top: -75%;
-  }
-
   #card1 img {
-    width: 140%;
-    height: 30vh;
-    margin-left: -20%;
+    width: 120%;
+    height: 35vh;
+    margin-left: -15%;
+    margin-top: 7%;
   }
 
   #card2 img {
-    width: 140%;
-    height: 50vh;
+    width: 165%;
+    height: 60vh;
     margin-left: -20%;
-    margin-top: -25%;
+    margin-top: -20%;
   }
 
   #card3 img {
-    width: 120%;
-    height: 30vh;
-    margin-left: -10%;
+    width: 170%;
+    height: 43vh;
+    margin-left: -30%;
+    margin-top: 15%;
   }
 
   #card4 img {
-    width: 120%;
-    height: 30vh;
-    margin-left: -10%;
+    width: 95%;
+    height: 43vh;
+    margin-left: %;
   }
 
   #card5 img {
-    width: 120%;
-    height: 35vh;
-    margin-top: -10%;
-    margin-left: -10%;
+    width: 95%;
+    height: 43vh;
+    margin-top: -60%;
+    margin-left: 5%;
   }
 
   #card6 img {
-    width: 120%;
-    height: 35vh;
+    width: 115%;
+    height: 45vh;
     margin-top: -10%;
     margin-left: -5%;
   }
@@ -286,6 +318,8 @@
   .card-title {
     margin-top: 8%;
     text-align: center;
+    margin-left: -5%;
+    width: 120%;
     font-family: 'Alegreya Sans', sans-serif;
     font-weight: 500;
     font-size: 25px;
@@ -301,7 +335,7 @@
     font-family: 'Alegreya Sans', sans-serif;
     font-weight: 500;
     font-size: 20px;
-    margin-left: 20%;
+    margin-left: 5%;
   }
 
   #row1 {
@@ -309,6 +343,10 @@
   }
 
   /*CONTACT*/
+  #contactSection {
+    height: 75vh;
+  }
+
   #contact img{
     margin-top: -35%;
     margin-left: -2.5%;
@@ -322,15 +360,22 @@
   }
 
   #listContact {
-    margin-top: -70%;
+    margin-top: -50%;
+    margin-left: -36%;
+  }
+
+  #listContact.fade-in {
+    margin-top: -45%;
+    margin-left: -2%;
   }
 
   #listContact h3{
     color: #76448A;
     font-family: 'Dancing Script', cursive;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
+    margin-left: 5%;
   }
 
   #listContact ul li {
@@ -340,7 +385,7 @@
   }
 
   #listContact ul li img {
-    width: 80%;
+    width: 60%;
   }
 
   #listContact ul {
@@ -348,17 +393,25 @@
   }
 
   #listImg {
-    height: 60vh;
+    height: 40vh;
     width: 20%;
     margin-top: -20%;
-    margin-left: 1%;
+    margin-left: -1%;
   }
 
   #listImg2 {
-    height: 60vh;
+    height: 40vh;
     width: 20%;
-    margin-top: -115%;
-    margin-left: 75%;
+    margin-top: -75%;
+    margin-left: 80%;
+  }
+
+  #developer {
+    background-color: #FFF;
+  }
+
+  #devoloper h4 {
+    text-align: center;
   }
 
   /*HOVER DE PROJECTS*/
@@ -371,12 +424,13 @@
   }
 
   #text4 p {
-    text-align: center;
+    margin-left: 10%;
+    width: 80%;
     color: #FFF;
-    margin-top: 20%;
+    margin-top: 35%;
     font-family: 'Handlee', cursive;
     letter-spacing: 2px;
-    font-size: 25px;
+    font-size: 18px;
     text-shadow: 0 0 1px #FFF,
                 0 1px 2px rgb(0, 0, 0, .3);
   }
@@ -403,9 +457,10 @@
 
   /*PROJECT #1*/
   #card1:hover #circle2 {
-    width: 100%;
-    height: 28vh;
-    margin-top: 5%;
+    width: 90%;
+    height: 35vh;
+    margin-top: 4%;
+    margin-left: -2%;
   }
 
   #card1:hover #text4 {
@@ -416,9 +471,10 @@
 
   /*PROJECT #2*/
   #card2:hover #circle2 {
-    width: 100%;
-    height: 28vh;
-    margin-top: 5%;
+    width: 90%;
+    height: 38vh;
+    margin-top: 10%;
+    margin-left: -2%;
   }
 
   #card2:hover #text4 {
@@ -429,9 +485,10 @@
 
   /*PROJECT #3*/
   #card3:hover #circle2 {
-    width: 100%;
-    height: 28vh;
-    margin-top: 5%;
+    width: 84%;
+    height: 36vh;
+    margin-top: 12%;
+    margin-left: -1%;
   }
 
   #card3:hover #text4 {
@@ -442,9 +499,10 @@
 
   /*PROJECT #4*/
   #card4:hover #circle2 {
-    width: 100%;
-    height: 28vh;
-    margin-top: 5%;
+    width: 85%;
+    height: 38vh;
+    margin-top: -85%;
+    margin-left: 2%;
   }
 
   #card4:hover #text4 {
@@ -455,9 +513,10 @@
 
   /*PROJECT #5*/
   #card5:hover #circle2 {
-    width: 100%;
-    height: 28vh;
-    margin-top: 5%;
+    width: 85%;
+    height: 36vh;
+    margin-top: -87%;
+    margin-left: 4%;
   }
 
   #card5:hover #text4 {
@@ -468,9 +527,10 @@
 
   /*PROJECT #6*/
   #card6:hover #circle2 {
-    width: 100%;
-    height: 28vh;
-    margin-top: 5%;
+    width: 85%;
+    height: 37vh;
+    margin-top: -84%;
+    margin-left: 3%;
   }
 
   #card6:hover #text4 {
