@@ -181,6 +181,10 @@
     margin-left: 3%;
   }
 
+  #list1.show {
+    margin-left: -10%;
+  }
+
   #list2 {
     margin-top: %;
     margin-left: 30%;
